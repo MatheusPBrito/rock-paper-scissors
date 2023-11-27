@@ -1,0 +1,49 @@
+body {
+	color:white;
+	background-color: black;
+}
+
+.content{
+        background-color: rgba(18,249,122,1);
+}
+
+header{
+	display: flex;
+	border: 20px;
+	justify-content: center;
+	color: yellow;
+	background-color: black;
+}
+
+.output{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.weapons{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.input{
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.input img{
+	border: 50px;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10%;
+	background-color: rgba(145,40,254,1);
+}
+
+.input img:hover{
+	border: 80px;
+	padding: 40px;
+	background-color: rgba(145,40,254,0.5);
+}

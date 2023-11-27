@@ -1,6 +1,42 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<script src="script.js"></script>
+		<link rel=stylesheet href=style.css>
+		<script src="script.js" defer></script>
 	</head>
+
+	<body>
+		<header>
+			<h1>ROCK PAPER SCISSORS</h1>
+		</header>
+		<div class="content">
+		<div class="display">
+		<div class="output">
+			<div id="text">
+				<h2>Choose your weapon</h2>
+				<p>First to score 5 points wins the game</p>
+			</div>
+		</div>
+
+		<div class="weapons">
+			<div>
+				<p id="playerWeapon">Player Choice</p>
+				<p id="playerScore">Player score</p>
+			</div>
+			<div>
+				<p id="computerWeapon">Computer Choice</p>
+				<p id="computerScore">Computer score</p>
+			</div>
+		</div>
+		</div>
+
+		<div class="input">
+
+			<img id="rock" src="img/rock.png" height="150" width="150">
+			<img id="paper" src="img/paper.png" height="150" width="150">
+			<img id="scissors" src="img/scissors.png" height="150" width="150">
+		</div>
+		</div>
+	</body>
+
 </html>
